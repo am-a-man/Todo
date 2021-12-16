@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.task--card {
+
+    box-shadow: 0 0 5px rgba(255,255,255, 0.5);
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius:  20px;
+    height: 45px;
+    background: #BB86FC;
+    margin: 3px 0px;
+    
+}
+
+.task--card > h4 {
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.task--card > button {
+    height: 100%;
+    width: 45px;
+    border-top-right-radius: inherit; 
+    border-bottom-right-radius: inherit; 
+    background: none;
+    border: none;
+    
+
+}
+
+.task--card > button:hover {
+    background: #CF6679;
+    color: white;
+}
